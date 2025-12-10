@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    width: 400px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 23px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.title-2 {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.form {
+    margin-top: 18px;
+    margin-left: 90px;
+}
+input {
+    margin-top: 4px;
+    height: 37px;
+    width: 210px;
+    border-radius: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+input::placeholder {
+    font-size: 12px;
+    padding: 10px;
+}
+label {
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.note {
+    color: rgba(0, 0, 0, 0.607);
+    font-size: 10px;
+    margin: 8px;
+}
+.login-btn {
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: 1px none;
+    height: 30px;
+    width: 210px;
+    margin-top: 10px;
+}
+
+.g-logo {
+    height: 15px;
+}
+.g-login-btn {
+    height: 35px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.268);
+    padding: 10px;
+    border-radius: 4px;
+    width: 210px;
+    transition: all 0.6s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+.agree {
+    text-align: center;
+    padding: 8px 120px;
+    text-justify: newspaper;
+    margin-top: 10px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.418);
+}
